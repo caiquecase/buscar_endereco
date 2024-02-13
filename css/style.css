@@ -1,0 +1,52 @@
+:root {
+    --bg-color: #151515;
+    --secondary-bg-color: #5E565A;
+    --primary-color: #fff;
+    --secondary-color: #A63D40;
+    --text-color: #fff;
+    --border-color: #F0EDEE;
+}
+
+#checkout-page {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+/* Form header */
+#form-header p {
+    color: var(--text-color);
+}
+
+/* Form */
+#order-form-container {
+    max-width: 700px;
+}
+
+#order-form-container input,
+#order-form-container select {
+    background-color: var(--bg-color);
+    border: 2px solid var(--border-color);
+    color: var(--primary-color);
+}
+
+#order-form-container select {
+    padding: 1rem 0.75rem;
+}
+
+#order-form-container label {
+    color: var(--text-color);
+}
+
+#order-form-container input:disabled,
+#order-form-container select:disabled {
+    background-color: var(--secondary-bg-color);
+    color: var(--text-color);
+}
+
+#order-form-container input:focus {
+    border-color: var(--secondary-color);
+}
+
+#order-form-container .form-floating>label {
+    left: 1em;
+}
